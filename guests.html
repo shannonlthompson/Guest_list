@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1">
+       <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <link rel='stylesheet' href = 'css/normalize.css'>
+        <link rel='stylesheet' href = 'css/styles.css'>
+        <title>Guest</title>
+    </head>
+    <body id="outer_wrapper">
+        <header>
+            <h1>Wedding Guest List</h1>
+            <ul>
+                <li><a href="guest_info.html">Guest Information</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </header>
+        <div id="inner_wrapper" >
+            <form id="guest_form" action=index.html method="post" >
+                
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="user_name">
+                    
+                    <label for="guest_number">Number of people in the party</label>
+                    <select id="guest_number" name="guest_number">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    
+                    <label for="bride">Bride's Guest</label>
+                     <input type="radio" id="bride" name="guest_type" value="bride">
+                    
+                     <label for="groom">Groom's Guest</label>
+                    <input type="radio" id="groom" name="guest_type" value="groom">
+                    
+                    <p><label>Include on the final guest list?</label></p>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="status" value="yes">
+                    <label for="undecided">Not sure</label>
+                    <input type="radio" id="undecided" name="status" value="undecided">
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="status" value="no">
+                    
+                    <button type="submit">Save</button> 
+            </form>
+            <ul id="guest_list"></ul>
+        </div>
+        <footer>Copyright 2017</footer>
+        <script src="guests.js"></script>
+        <script src="common.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+/*  ================================= 
+Base Element Styles
+==================================== */
+
+#outer_wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    
+    color: rgb(88, 75, 75);
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px 0px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.1em;
+    padding-top: 12px;
+    font-weight: bold;
+    color: rgb(45, 57, 68);
+}
+
+legend {
+    text-align: left;
+    font-size: 1.1em;
+     font-weight: bold;
+    color: rgb(45, 57, 68);
+}
+
+/* Center block elements */
+input, 
+label, 
+select { 
+    margin: auto;
+}
+
+#inner_wrapper {
+    padding: 0 5vw;
+}
+
+#intro {
+    border-bottom: thick solid rgb(45, 57, 68);
+}
+
+header {
+    background-color: rgb(45, 57, 68);
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+header a {
+    color: whitesmoke;
+}
+
+input,
+textarea,
+select {
+    display: block;
+}
+
+img {
+   width: 100px; 
+}
+
